@@ -74,7 +74,7 @@ const getBucketFiles = async (bucketName, saveTo, prefix, extension, callBack) =
  * Uploads a file to a specific storage bucket
  * @param {string} bucketName google storage bucket to work with
  * @param {string} fileName file to be uploaded
- * @param {function} options google storage file upload options configuration object
+ * @param {object} options google storage file upload options configuration object
  */
 const uploadBucketFile = async (bucketName, fileName, options = {}) => {
     const storage = new Storage();

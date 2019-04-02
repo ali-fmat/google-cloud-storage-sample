@@ -1,0 +1,17 @@
+{
+    "bucket" : "YOUR_BUCKET_NAME",
+    "file" : "/path/to/file/to/be/uploaded",
+    "options" : {
+        "destination": "How this file will be saved as in the bucket",
+        "resumable": true,
+        "gzip": true,
+        "validation": "crc32c",
+        "metadata": {
+            "contentType": "this is sample"
+        }
+    },
+    "values" : [
+        { "key": "your_key", "value": "google.com", "replace": "notgoogle.com" },
+        { "key": "another_key", "value": "google.com", "replace": "notgoogle.com" }
+    ]
+}

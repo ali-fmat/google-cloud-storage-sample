@@ -1,0 +1,19 @@
+{
+  "name": "google-cloud-storage-sample",
+  "version": "1.0.0",
+  "description": "This is a google cloud storage sample",
+  "main": "./index.js",
+  "bin": {
+    "gs": "./cli.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Irving Martin",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^2.4.3",
+    "fast-crc32c": "^1.0.4",
+    "yargs": "^13.2.2"
+  }
+}
